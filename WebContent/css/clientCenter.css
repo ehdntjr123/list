@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.card {
+	height: 100%;
+}
+
+ul.horizontal-list {
+	list-style: none;
+}
+
+ul.horizontal-list > li {
+	display: inline-block;
+	margin-right: 20px;
+}

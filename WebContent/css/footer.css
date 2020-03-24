@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+	a {
+		text-decoration: none;
+	}
+	
+	h2 a {
+		display: block;
+		width: 171px;
+		height: 17px;
+		color: #000000;
+	}
+	
+	ul.link {
+		padding: 20px 0 6px;
+		font-size: 0;
+		text-align: left;
+		list-style: none;
+	}
+	
+	.link > li {
+		display: inline-block;
+		vertical-align: top;
+	}
+	
+	.link > li > a {
+		display: block;
+		padding: 5px 0;
+		color: #666;
+		font-size: 14px;
+		margin-right: 10px;
+	}
+	
+	.info {
+		padding-right: 300px;
+		color: #b2b2b2;
+		font-family: 'NotoSansKR';
+		font-style: normal;
+		font-size: 13px;
+		font-weight: bold;
+	}
+	
+	.info span {
+		padding: 0 12px 0 0;
+	}
+	
+	.info * {
+		color: inherit;
+		font: inherit;
+	}
+	
+	.info span.escrow a {
+		padding-right: 12px;
+		background: url(https://www.giordano.co.kr/_skin/giordano/img/common/ft_escrow.png) no-repeat right center;
+	}
+	
+	.copyright {
+		padding: 0 28px;
+		color: #b2b2b2;
+		font-size: 10pt;
+	}
+	
+	.copyright a {
+		color: #b2b2b2;
+	}
+	
+	.area_right {
+		position: absolute;
+		right: 60px;
+		top: 20px;
+		z-index: 5;
+	}
+	
+	.area_right .cs {
+		color: #b2b2b2;
+		font-size: 13px;
+		text-align: right;
+	}
+	
+	.area_right .cs a {
+		display: inline-block;
+		padding-left: 6px;
+		color: #1a1a1a;
+		font-size: 22px;
+		vertical-align: middle;
+	}
+	
+	.area_right .menu {
+		overflow: hidden;
+	}
+	
+	.area_right .menu ul {
+		float: right;
+		padding-left: 30px;
+		text-align: right;
+		list-style-type: none;
+	}
+	
+	.area_right .menu ul li {
+		padding-top: 10px;
+	}
+	
+	.area_right .menu ul li a {
+		color: #666;
+	}

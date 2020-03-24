@@ -1,0 +1,261 @@
+@charset "UTF-8";
+
+.sideli{
+   color:gray;
+   list-style-type: none;   
+   margin-top: 10px;
+   font-size: 13pt;
+}
+
+.title{
+   margin-top: 100px;
+   font-weight: bold;
+   font-size: 15pt;
+}
+
+.sideul{
+   margin-top: 20px;
+}
+
+#myPageBox{
+    border: solid 1px black;
+    margin-top: 50px;
+    height: 200px;
+}
+  
+  #myPageBox > * {
+     display: inline-block;
+     margin-right: 50px;
+}
+  
+.term{
+   background-color: white;
+   width: 105px;
+   height: 43px;
+   vertical-align: middle;
+   position : relative;
+   top : 36px;
+   left : 55px;   
+}
+  
+#orderList{
+     float: right;
+     font-size: 20px;
+     margin-top: 15px;
+     cursor: pointer;
+  }
+
+#wishList{
+    float: right;
+      font-size: 20px;   
+    margin-top: 15px;
+     cursor: pointer;
+}
+
+.liSession{
+   display: inline-block;
+  }
+
+#textareaSecession{
+   height: 400px;
+    margin-top: 30px;   
+   width: 100%;
+      border: 1px solid #666;
+   -webkit-writing-mode: horizontal-tb !important;
+   text-rendering: auto;
+   color: initial;
+   letter-spacing: normal;
+   word-spacing: normal;
+   text-transform: none;
+   text-indent: 0px;
+   text-shadow: none;
+   display: inline-block;
+   text-align: start;
+   -webkit-appearance: textarea;
+   background-color: white;
+   -webkit-rtl-ordering: logical;
+   flex-direction: column;
+   resize: auto;
+   cursor: text;
+   white-space: pre-wrap;
+   overflow-wrap: break-word;
+   margin: 0em;
+   font: 400 13.3333px Arial;   
+}
+
+#pwdSecession{
+    width: 96%;
+    vertical-align: top;
+    height: 50px;
+    border-top-style: initial;
+    border-right-style: initial;
+    border-left-style: initial;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-left-color: initial;
+    color: rgb(26, 26, 26);
+    font-family: Roboto, NotoSansKR, "Malgun Gothic", "맑은 고딕", AppleGothic, Dotum, 돋움, sans-serif;
+    font-size: 16px;
+    padding: 0px 10px;
+    border-width: 0px 0px 1px;
+    border-image: initial;
+    border-bottom: 1px solid rgb(102, 102, 102);
+    background: rgb(255, 255, 255);
+    transition: all 0.3s ease 0s;  
+}
+
+#secessionRe{
+   padding-bottom: 12px;
+    color: #b2b2b2;
+    font-size: 14px;
+    text-align: left;
+}
+
+#SecessionBtn1{
+   width: 250px;
+     height: 60px;
+      font-size: 15px;
+      font-weight: bold;
+      color: black;
+      background-color: white;
+      margin-left: 50px;
+      margin-top: 30px;
+}
+
+#SecessionBtn2{
+    width: 250px;
+      height: 60px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    margin-left: 30px;
+    margin-top: 30px; 
+}
+
+.editDiv{
+   width: 500px;
+}
+
+#memberEdit{
+   position :relative;
+   right : 400px;
+   float: right;
+   height: 1500px;   
+}
+
+.memberInfoFont{
+   margin-bottom: 28px;
+    padding-left: 30px;
+    background: url(https://www.giordano.co.kr/_skin/giordano/img/common/icon_check.png) no-repeat left center;
+    font-size: 20px;   
+}
+
+.form_input{
+   height: 50px;
+    border-top-style: initial;
+    border-right-style: initial;
+    border-left-style: initial;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-left-color: initial;
+    color: rgb(26, 26, 26);
+    font-family: Roboto, NotoSansKR, "Malgun Gothic", "맑은 고딕", AppleGothic, Dotum, 돋움, sans-serif;
+    font-size: 16px;
+    padding: 0px 10px;
+    border-width: 0px 0px 1px;
+    border-image: initial;
+    border-bottom: 1px solid rgb(102, 102, 102);
+    transition: all 0.3s ease 0s;
+    background: #f2f2f2;
+    width: 100%;
+}
+
+.selectBirth{
+   height: 50px;
+   width: 100px;
+    padding: 0 10px;
+    border: 0;
+    border-bottom: 1px solid #666;
+    color: #b2b2b2;
+    font-size: 16px;
+} 
+
+.birthNum{
+   color: rgb(26, 26, 26);
+    font-family: Roboto, NotoSansKR, "Malgun Gothic", "맑은 고딕", Dotum, 돋움, sans-serif;
+    font-size: 12px;
+    line-height: 1.6;
+    vertical-align: baseline;
+    margin: 0px;
+    padding: 0px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    outline: 0px;
+}
+
+.editDiv{
+   margin-top: 30px;
+}
+
+#editBtn1{
+   width: 250px;
+   height: 60px;
+   font-size: 15px;
+   font-weight: bold;
+   color: black;
+   background-color: white; 
+}
+
+#editBtn2{
+   width: 250px;
+   height: 60px;
+   font-size: 15px;
+   font-weight: bold;
+   color: white;
+   background-color: black;
+}
+
+#memtal{
+   font-size: 16px;
+   text-decoration: underline;
+   text-align: center;
+   color: black;   
+}
+  
+#currentOrderFont{
+     font-size: 20px;
+     font-weight: bold;
+     margin-top: 40px;
+     margin-left: 20px;
+}
+  
+#currentViewFont{
+     font-size: 20px;
+     font-weight: bold;
+     margin-left: 20px;
+   
+
+}
+  
+#orderState{
+    font-size: 20px;
+      font-weight: bold;
+     margin-left: 20px;
+      
+  }
+  
+#wishState{
+    margin-top: 40px;
+    font-size: 20px;
+      font-weight: bold;
+      margin-left: 20px;
+      
+  }
+  
+  
+.wishBtn{
+      float: right;
+}
